@@ -13,3 +13,7 @@ https://itch.io/jam/gbjam-5
  * #8B956D
  * #4D533C
  * #1F1F1F
+
+## Description
+
+My first idea is the adventures of a tiny astronaut. The game will start off with you exiting your ship station on a platform you can jetpack from. You'll fly off the platform and float around in this segment of space with floating asteroids all around. Your goal is to collect ore from the asteroids. Once you land on the surface of an asteroid, you can switch to 'mining' mode and start chipping away the surface of the rock. You'll fly back to your station when you reach 99 ore inventory to store what you've found. Super simple, easy and fun.
