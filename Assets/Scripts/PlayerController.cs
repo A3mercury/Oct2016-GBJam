@@ -31,7 +31,11 @@ public class PlayerController : MonoBehaviour {
 	}
 	
 	public void AddGravity(Vector3 asteroidPosition, float gravity) {
-		Vector2 direction = transform.position + asteroidPosition;
-		playerRigidBody.AddForce(direction * gravity, ForceMode2D.Force);
+		Debug.Log ("player: " + transform.position + ", asteroid: " + asteroidPosition);
+		
+		
+		
+		//Vector2 direction = (transform.position < asteroidPosition) ? transform.position + asteroidPosition : transform.position - asteroidPosition;
+		//playerRigidBody.AddForce(direction * gravity, ForceMode2D.Force);
 	}
 }
